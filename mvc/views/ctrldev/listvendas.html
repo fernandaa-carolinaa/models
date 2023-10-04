@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listando Vendas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Perentino</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./listdescontos.html">Descontos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./listvendas.html">Vendas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./listskins.html">Skins</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./listcupons.html">Cupons</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <main>
+        <h2>Listando Vendas</h2>
+
+        <section class="list">
+
+            <div class="row">
+                <button class="btn btn-warning"> <a href="addvendas.html" style="text-decoration: none; color: black;">Cadastrar Nova Venda</a></button>
+            </div>
+            <!-- Inicio do loop de dados -->
+            <div class="row border border-2  border-warning rounded m-2 p-2 d-flex">
+            <div class="col border-end d-flex justify-content-center align-self-center">Samuel</div>
+            <div class="col border-end d-flex justify-content-center align-self-center">23:22:01</div>
+            <div class="col border-end d-flex justify-content-center align-self-center">21/01/2023</div>
+            <div class="col border-end d-flex justify-content-center align-self-center">37-Chapeu Verde</div>
+            <div class="col border-end d-flex justify-content-center align-self-center">Natal</div>
+            <div class="col border-end d-flex justify-content-center align-self-center"><button class="btn btn-info">Details</button></div>
+            <div class="col d-flex justify-content-center align-self-center"><button class="btn btn-danger">Delete</button></div>
+            </div>
+
+        </section>
+        
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
